@@ -27,17 +27,225 @@ public class Cartela_GUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        num = new javax.swing.JLabel();
+        numContainer = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        colB = new javax.swing.JLabel();
+        colI = new javax.swing.JLabel();
+        colN = new javax.swing.JLabel();
+        colG = new javax.swing.JLabel();
+        colO = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new java.awt.Dimension(900, 600));
+
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setLayout(null);
+
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel2.setLayout(null);
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel1.setText("Qtd. Impressão");
+        jPanel2.add(jLabel1);
+        jLabel1.setBounds(20, 20, 260, 50);
+
+        num.setFont(new java.awt.Font("Tahoma", 0, 64)); // NOI18N
+        num.setText("75");
+        jPanel2.add(num);
+        num.setBounds(120, 120, 80, 90);
+
+        numContainer.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Bola.png"))); // NOI18N
+        jPanel2.add(numContainer);
+        numContainer.setBounds(80, 80, 150, 170);
+
+        jPanel1.add(jPanel2);
+        jPanel2.setBounds(560, 50, 300, 280);
+
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jButton1.setText("Gerar Cartela");
+        jPanel1.add(jButton1);
+        jButton1.setBounds(560, 360, 290, 70);
+
+        jButton2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jButton2.setText("Imprimir Cartelas");
+        jPanel1.add(jButton2);
+        jButton2.setBounds(560, 460, 290, 70);
+
+        jPanel3.setLayout(null);
+
+        colB.setFont(new java.awt.Font("Tahoma", 0, 64)); // NOI18N
+        colB.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        colB.setText("B");
+        jPanel3.add(colB);
+        colB.setBounds(0, 0, 87, 78);
+
+        colI.setFont(new java.awt.Font("Tahoma", 0, 64)); // NOI18N
+        colI.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        colI.setText("I");
+        jPanel3.add(colI);
+        colI.setBounds(90, 0, 87, 78);
+
+        colN.setFont(new java.awt.Font("Tahoma", 0, 64)); // NOI18N
+        colN.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        colN.setText("N");
+        jPanel3.add(colN);
+        colN.setBounds(180, 0, 87, 78);
+
+        colG.setFont(new java.awt.Font("Tahoma", 0, 64)); // NOI18N
+        colG.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        colG.setText("G");
+        jPanel3.add(colG);
+        colG.setBounds(270, 0, 87, 78);
+
+        colO.setFont(new java.awt.Font("Tahoma", 0, 64)); // NOI18N
+        colO.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        colO.setText("O");
+        jPanel3.add(colO);
+        colO.setBounds(360, 0, 87, 78);
+
+        jLabel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel7);
+        jLabel7.setBounds(0, 80, 90, 80);
+
+        jLabel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel8);
+        jLabel8.setBounds(90, 80, 90, 80);
+
+        jLabel9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel9);
+        jLabel9.setBounds(180, 80, 90, 80);
+
+        jLabel10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel10);
+        jLabel10.setBounds(270, 80, 90, 80);
+
+        jLabel11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel11);
+        jLabel11.setBounds(360, 80, 90, 80);
+
+        jLabel12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel12);
+        jLabel12.setBounds(0, 160, 90, 80);
+
+        jLabel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel13);
+        jLabel13.setBounds(90, 160, 90, 80);
+
+        jLabel14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel14);
+        jLabel14.setBounds(180, 160, 90, 80);
+
+        jLabel15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel15);
+        jLabel15.setBounds(270, 160, 90, 80);
+
+        jLabel16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel16);
+        jLabel16.setBounds(360, 160, 90, 80);
+
+        jLabel17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel17);
+        jLabel17.setBounds(0, 240, 90, 80);
+
+        jLabel18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel18);
+        jLabel18.setBounds(90, 240, 90, 80);
+
+        jLabel19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel19);
+        jLabel19.setBounds(180, 240, 90, 80);
+
+        jLabel20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel20);
+        jLabel20.setBounds(270, 240, 90, 80);
+
+        jLabel21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel21);
+        jLabel21.setBounds(360, 240, 90, 80);
+
+        jLabel22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel22);
+        jLabel22.setBounds(0, 320, 90, 80);
+
+        jLabel23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel23);
+        jLabel23.setBounds(90, 320, 90, 80);
+
+        jLabel24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel24);
+        jLabel24.setBounds(180, 320, 90, 80);
+
+        jLabel25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel25);
+        jLabel25.setBounds(270, 320, 90, 80);
+
+        jLabel26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel26);
+        jLabel26.setBounds(360, 320, 90, 80);
+
+        jLabel27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel27);
+        jLabel27.setBounds(0, 400, 90, 80);
+
+        jLabel28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel28);
+        jLabel28.setBounds(90, 400, 90, 80);
+
+        jLabel29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel29);
+        jLabel29.setBounds(180, 400, 90, 80);
+
+        jLabel30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel30);
+        jLabel30.setBounds(270, 400, 90, 80);
+
+        jLabel31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel3.add(jLabel31);
+        jLabel31.setBounds(360, 400, 90, 80);
+
+        jPanel1.add(jPanel3);
+        jPanel3.setBounds(30, 50, 450, 480);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -79,5 +287,43 @@ public class Cartela_GUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel colB;
+    private javax.swing.JLabel colG;
+    private javax.swing.JLabel colI;
+    private javax.swing.JLabel colN;
+    private javax.swing.JLabel colO;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JLabel num;
+    private javax.swing.JLabel numContainer;
     // End of variables declaration//GEN-END:variables
 }
